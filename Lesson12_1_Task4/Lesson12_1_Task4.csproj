@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8161DA23-1C9C-40A5-88ED-093210611CFE}</ProjectGuid>
+    <ProjectGuid>{FD0DC85D-5356-4F7E-9DE5-B4EB289883DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson12_1_Task3</RootNamespace>
-    <AssemblyName>Lesson12_1_Task3</AssemblyName>
+    <RootNamespace>Lesson12_1_Task4</RootNamespace>
+    <AssemblyName>Lesson12_1_Task4</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Author.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="Content.cs" />
+    <Compile Include="Figure.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Title.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
