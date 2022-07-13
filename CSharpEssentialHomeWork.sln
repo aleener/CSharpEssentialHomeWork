@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12_1_Task2", "Lesson12(1)Task2\Lesson12_1_Task2.csproj", "{ACD90955-A1B7-4354-8532-92001CE910D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12_1_Task2", "Lesson12_1_Task2\Lesson12_1_Task2.csproj", "{ACD90955-A1B7-4354-8532-92001CE910D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12_1_AdditionalTask", "Lesson12_1_AdditionalTask\Lesson12_1_AdditionalTask.csproj", "{1725ED0F-B79E-43D3-ADFB-4626C693AE30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12_1_Task6", "Lesson12_1_Task6\Lesson12_1_Task6.csproj", "{1725ED0F-B79E-43D3-ADFB-4626C693AE30}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12_1_Task3", "Lesson12_1_Task3\Lesson12_1_Task3.csproj", "{8161DA23-1C9C-40A5-88ED-093210611CFE}"
 EndProject
