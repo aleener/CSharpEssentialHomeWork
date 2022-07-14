@@ -16,6 +16,7 @@ namespace Lesson13_2_Task2
         //    также программа должна производить конвертацию из указанных валют в гривну.
         static void Main(string[] args)
         {
+            int x;
         }
     }
 }
