@@ -14,7 +14,7 @@ namespace Lesson13_2_Task6
         string login;
         string firstName;
         string lastName;
-        DateTime createDate = DateTime.Now;
+        readonly DateTime createDate = DateTime.Now;
 
         public User() { }
         public User(string login, string firstName, string lastName)
