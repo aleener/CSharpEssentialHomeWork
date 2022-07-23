@@ -22,6 +22,33 @@ namespace Lesson14_3_Task4
     {
         static void Main(string[] args)
         {
+            DocumentWorker doc1 = new DocumentWorker();
+            string key;
+
+            while (true)
+            {
+                Console.Write("Enter a key: ");
+                key = Console.ReadLine();
+
+                if (key == "pro")
+                {
+                    doc1 = new ProDocumentWorker();
+                }
+                else if (key == "exp")
+                {
+                    doc1 = new ExpertDocumentWorker();
+                }
+                //Console.Clear();
+
+                Console.WriteLine($"\ndoc1 Id: {doc1.GetHashCode()}");
+                doc1.OpenDocument();
+                doc1.EditDocument();
+                doc1.SaveDocument();
+
+                doc1 = new DocumentWorker();
+
+                Console.WriteLine(new String('-',25));
+            } 
         }
     }
 }
