@@ -19,17 +19,20 @@ namespace Lesson14_3_Task5
 
             Printer printer = new Printer();
 
-            Console.WriteLine(printer.GetHashCode());
+            Console.WriteLine($"{new string('-', 25)}\n{printer.GetHashCode()}");
             printer.Print(@string);
+            
             printer = new BluePrint();
-            Console.WriteLine(printer.GetHashCode());
+            Console.WriteLine($"{new string('-', 25)}\n{printer.GetHashCode()}");
             printer.Print(@string);
+            
             printer = new YellowPrint();
-            Console.WriteLine(printer.GetHashCode());
+            Console.WriteLine($"{new string('-', 25)}\n{printer.GetHashCode()}");
             printer.Print(@string);
-            Console.WriteLine(printer.GetHashCode());
-            Printer printer1 = printer;
-            printer1.Print(@string); 
+            
+            printer = new Printer();
+            Console.WriteLine($"{new string('-', 25)}\n{printer.GetHashCode()}");
+            printer.Print(@string); 
 
             Console.ReadKey();
         }
