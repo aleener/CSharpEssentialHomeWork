@@ -16,7 +16,6 @@ namespace Lesson16_5_Task2
         {
             array = new int[value];
         }
-
         public int this[int index]
         {
             get
@@ -28,7 +27,6 @@ namespace Lesson16_5_Task2
                 array[index] = value;
             }
         }
-
         public void RandomFill()
         {
             for (int i = 0; i < array.Length; i++)
