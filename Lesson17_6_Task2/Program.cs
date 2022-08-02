@@ -13,12 +13,13 @@ namespace Lesson17_6_Task2
     {
         public static void FindNext(string str)
         {
-            Book.FindNext(str);
+            Book book = new Book();
+            book.FindNext(str);
         }
     }
-    static class Book
+    class Book
     {
-        public static void FindNext(string str)
+        public void FindNext(string str)
         {
             Console.WriteLine("Поиск строки : " + str);
         }
