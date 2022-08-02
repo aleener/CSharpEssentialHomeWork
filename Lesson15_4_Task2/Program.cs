@@ -29,7 +29,7 @@ namespace Lesson15_4_Task2
                 }
                 else if (format == "txt")
                 {
-                    AbstractHandler TXT = new XMLHandler();
+                    AbstractHandler TXT = new TXTHandler();
                     Console.WriteLine(new String('-', 25));
                     TXT.Open(); TXT.Create(); TXT.Change(); TXT.Save();
                     Console.WriteLine(new String('-', 25));
