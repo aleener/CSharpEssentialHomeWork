@@ -21,7 +21,7 @@ namespace Lesson17_6_Task2
     {
         public void FindNext(string str)
         {
-            Console.WriteLine("Поиск строки : " + str);
+            Console.WriteLine("Find string : " + str);
         }
     }
     class Program
