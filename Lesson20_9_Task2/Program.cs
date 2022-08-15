@@ -50,7 +50,6 @@ namespace Lesson20_9_Task2
                     default: goto label;
                 }
             }
-
         }
     }
 }
