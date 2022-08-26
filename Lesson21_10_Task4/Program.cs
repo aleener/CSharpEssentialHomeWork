@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lesson21_10_Task4
 {
-
-    //Создайте расширяющий метод: public static T[] GetArray(this MyList list)
-    //Примените расширяющий метод к экземпляру типа MyList, разработанному в домашнем задании 2 для данного урока.
-    //Выведите на экран значения элементов массива, который вернул расширяющий метод GetArray(). 
-
+    #region
+    //TODO: 1. Создайте расширяющий метод: public static T[] GetArray(this MyList list)
+    //TODO: 2. Примените расширяющий метод к экземпляру типа MyList, разработанному в домашнем задании 2 для данного урока.
+    //TODO: 3. Выведите на экран значения элементов массива, который вернул расширяющий метод GetArray(). 
+    #endregion
     public static class MyListExt
     {
         public static T[] GetArray<T>(this MyList<T> list)
@@ -68,7 +68,6 @@ namespace Lesson21_10_Task4
             }
             Console.WriteLine(new string('-', 25));
         }
-
     }
     internal class Program
     {
