@@ -72,10 +72,9 @@ namespace Lesson22_11_Task4
         {
             ArrayList aList = new ArrayList();
 
-
             aList.Print();
             aList.Add(1);
-            aList.Add((object)2);
+            aList.Add((object)2);   
             aList.Print();
 
             Console.ReadKey();
