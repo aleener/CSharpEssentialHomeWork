@@ -28,36 +28,36 @@ namespace Lesson18_7_Task3
         {
             
             myClass.change = "Changed";
-            Console.WriteLine($"ClassTaker method myClass.change\t{myClass.change} {myClass.change.GetHashCode()}");
+            Console.WriteLine($"ClassTaker method myClass.change\t{myClass.change} {myClass.GetHashCode()}");
         }
         static void StruktTaker(MyStruct myStruct)
         {
 
             myStruct.change = "Changed";
-            Console.WriteLine($"StruktTaker method myStruct.change\t{myStruct.change} {myStruct.change.GetHashCode()}");
+            Console.WriteLine($"StruktTaker method myStruct.change\t{myStruct.change} {myStruct.GetHashCode()}");
         } 
         static void Main(string[] args)
         {
             MyClass myClass = new MyClass();
-            MyStruct myStruct = new MyStruct();
+            MyStruct myStruct;
 
             myClass.change = "Not changed";
             myStruct.change = "Not changed";
 
-            Console.WriteLine($"myClass.change\t{myClass.change} {myClass.change.GetHashCode()}");
-            Console.WriteLine($"myStruct.change\t{myStruct.change} {myStruct.change.GetHashCode()}");
+            Console.WriteLine($"myClass.change\t{myClass.change} {myClass.GetHashCode()}");
+            Console.WriteLine($"myStruct.change\t{myStruct.change} {myStruct.GetHashCode()}");
             Console.WriteLine(new String('-', 50));
 
             ClassTaker(myClass);
             StruktTaker(myStruct);
             Console.WriteLine(new String('-', 20));
 
-            Console.WriteLine($"myClass.change\t{myClass.change} {myClass.change.GetHashCode()}");
-            Console.WriteLine($"myStruct.change\t{myStruct.change} {myStruct.change.GetHashCode()}");
+            Console.WriteLine($"myClass.change\t{myClass.change} {myClass.GetHashCode()}");
+            Console.WriteLine($"myStruct.change\t{myStruct.change} {myStruct.GetHashCode()}");
             Console.WriteLine(new String('-', 20));
 
             myStruct.change = "Changed";
-            Console.WriteLine($"myStruct.change\t{myStruct.change} {myStruct.change.GetHashCode()}");
+            Console.WriteLine($"myStruct.change\t{myStruct.change} {myStruct.GetHashCode()}");
             Console.WriteLine(new String('-', 20));
 
             Console.ReadKey();
